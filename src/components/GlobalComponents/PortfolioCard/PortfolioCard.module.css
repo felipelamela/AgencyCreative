@@ -1,0 +1,51 @@
+.containerImgCard{
+  position: relative;
+}
+.imgPortfolio {
+  max-width: calc(250px);
+  cursor: pointer;
+  padding: 25px;
+
+}
+
+.imgPortfolio:hover {
+  animation: aumentar .3s forwards;
+}
+
+.imgPortfolio:not(:hover) {
+  animation: diminuir .3s forwards;
+}
+
+.textPortfolio {
+  position:relative;
+  top: -70px;
+  left: 50px;
+  font-weight: 400w;
+  color: white;
+}
+
+
+
+@keyframes aumentar {
+  from {
+    max-width: 250px;
+    padding: 25px;
+  }
+
+  to {
+    max-width: 300px;
+    padding: 0 25px;
+  }
+}
+
+@keyframes diminuir {
+  from {
+    max-width: 300px;
+    padding: 0 25px;
+  }
+
+  to {
+    max-width: 250px;
+    padding: 25px;
+  }
+}

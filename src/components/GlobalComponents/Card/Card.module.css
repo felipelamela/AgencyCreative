@@ -1,0 +1,26 @@
+.containerCard {
+  width: 140px;
+  padding: 1.4rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  height: 170px;
+  box-sizing: border-box;
+
+}
+
+.containerCard:hover {
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.imgCard {
+  padding: 1rem;
+  border: none;
+  border-radius: 50%;
+  max-width: 30px;
+  margin: 0 0 1rem;
+}
+
+.textCard {
+  width: 90px;
+}
