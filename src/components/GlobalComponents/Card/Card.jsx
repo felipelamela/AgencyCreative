@@ -7,7 +7,7 @@ const Card = ({ img, text, color }) => {
       <div className={styles.containerImg}>
         <img
           className={styles.imgCard}
-          style={{ backgroundColor: `${color}`}}
+          style={{ backgroundColor: `#${color}`}}
           src={img}
           alt=""
         />
