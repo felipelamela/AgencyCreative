@@ -1,0 +1,7 @@
+.buttonSec {
+  color: var(--Primary-Color);
+  border: 1px solid var(--Primary-Color);
+  padding: .5rem 2rem;
+  background: white;
+  border-radius: 2rem;
+}

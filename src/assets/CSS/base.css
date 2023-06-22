@@ -1,0 +1,35 @@
+:root {
+  --Main-Color-Font-Clean: #1d1d1d;
+  --Sec-Color-Font-Clean: #515151;
+
+  --Main-Color-Font-Dark: #e2e2e2;
+  --Sec-Color-Font-Dark: #d5d3d3;
+
+  --Primary-Color: #377dff;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  color: var(--Main-Color-Font-Clean);
+}
+
+a {
+  color: var(--Main-Color-Font-Clean);
+}
+h2{
+  color: var(--Primary-Color);
+}
+
+h3 {
+  font-size: 2.7rem;
+  max-width: 800px;
+  font-weight: 600;
+}
+
+
+p {
+  font-size: 1rem;
+  color: var(--Sec-Color-Font-Clean);
+}

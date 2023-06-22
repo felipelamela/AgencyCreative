@@ -1,0 +1,19 @@
+.containerHeader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3rem 0 4rem;
+}
+
+.logoHeader{
+  max-width: 120px;
+}
+.containerNavUl {
+  display: flex;
+}
+
+.linkHeaderNav {
+  padding: .4rem;
+  margin: .2rem;
+}
+

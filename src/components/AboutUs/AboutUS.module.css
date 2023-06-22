@@ -1,0 +1,36 @@
+.containerAbout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 800px;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.containerContentAbout {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.imgAboutUs {
+  max-width: 350px;
+
+}
+
+.containerTextAbout {
+  text-align: start;
+
+  padding: 1.3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.textAbout {
+  font-weight: 300;
+}
+
+.containerButtonAbout{
+  display: flex;
+  gap: 1rem;
+}
