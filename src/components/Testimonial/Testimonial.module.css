@@ -1,0 +1,12 @@
+.containerTesti{
+display: flex;
+flex-direction: column;
+max-width: 1000px;
+margin: 5rem auto;
+gap: 1.5rem;
+align-items: center;
+}
+.containerCardsTesti{
+  display: flex;
+  gap: 1.5rem;
+}

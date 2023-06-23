@@ -1,0 +1,35 @@
+.containerCardTesti{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  text-align: center;
+  padding: 1.3rem 1.3rem 2rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.containerImgName{
+  display: flex;
+  align-items: center;
+}
+.containerName{
+  text-align: start;
+  padding: 0 0 0 1rem;
+}
+
+.cardTestiName{
+ font-size: 1.3rem;
+ color: var(--Primary-Color);
+ padding: 0 0 .4rem 0;
+}
+
+.cardTestiProf{
+font-size: .8rem;
+font-weight: 100;
+}
+
+.cardTestiDescri{
+ text-align: start;
+}
